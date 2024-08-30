@@ -2,9 +2,10 @@
 config.py
 
 # Ignore all files in the files directory except the files directory itself
-files/*
 !files/
+files/*
+
 
 # Ignore all files in the data directory except the data directory itself
-data/*
 !data/
+data/*
