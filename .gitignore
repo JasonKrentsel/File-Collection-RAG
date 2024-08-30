@@ -1,0 +1,7 @@
+# Ignore the config file
+config.py
+
+# Ignore all files in the files directory except the files directory itself
+
+files/*
+!files/
