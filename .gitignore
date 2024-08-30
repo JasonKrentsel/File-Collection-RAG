@@ -1,11 +1,8 @@
 # Ignore the config file
 config.py
 
-# Ignore all files in the files directory except the files directory itself
-!files/
-files/*
+# Ignore all files in the files directory
+Files/*
 
-
-# Ignore all files in the data directory except the data directory itself
-!data/
-data/*
+# Ignore the file_database.csv file
+file_database.csv
