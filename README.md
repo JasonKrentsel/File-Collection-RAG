@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project is a basic proof of concept for a Retrieval-Augmented Generation (RAG) system. It is designed to manage a collection of files stored in a single directory, generating detailed summaries and vector embeddings using the Google Gemini API.
+This project is a basic proof of concept for a Retrieval-Augmented Generation (RAG) system, which allows for efficient search and retrieval of files. It is designed to manage a collection of files stored in a single directory, generating detailed summaries and vector embeddings using the Google Gemini API.
+
+When developing a Retrieval-Augmented Generation (RAG) system for extensive file collections, the process of chunking each file and generating embeddings for every chunk can become impractical, leading to diminished relevance in search results. This system's approach is to initially identify pertinent files before creating a more concise set of chunks for each file. This methodology minimizes the volume of data that must be processed for each query, while allowing for the user to grab the files for their own use.
 
 ## Features
 
