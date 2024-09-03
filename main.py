@@ -9,6 +9,13 @@ if not os.path.exists(files_dir):
 else:
 	print(f"'{files_dir}' directory already exists.")
 
+# Configure the Google API key
+import google.generativeai as genai
+from config import GOOGLE_API_KEY
+
+genai.configure(api_key=GOOGLE_API_KEY)
+
+# remaining imports
 from Source.FileManager import FILE_MANAGER
 
 def main():
@@ -29,6 +36,13 @@ def main():
 
 	# Add your application's main functionality here
 	file_manager = FILE_MANAGER
+
+	query = input("Enter a query: ")
+
+	results = file_manager.top_k_cosine_similarity(query)
+
+	print(results)
+
 
 if __name__ == "__main__":
 	main()

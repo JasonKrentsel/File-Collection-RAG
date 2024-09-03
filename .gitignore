@@ -4,5 +4,5 @@ config.py
 # Ignore all files in the files directory
 Files/*
 
-# Ignore the file_database.csv file
-file_database.csv
+# Ignore the file_database.json file
+file_database.json

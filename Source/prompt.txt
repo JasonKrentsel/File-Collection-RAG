@@ -44,6 +44,6 @@ You are provided with a document that needs to be summarized for embedding in a 
 **Formatting Guidelines:**
 - Write the summary in clear, natural language. Avoid bullet points or lists to ensure the embedding model performs optimally.
 - Maintain a balance between high-level overviews and specific details to cater to various types of queries.
-- Ensure the summary is concise and to the point, focusing only on details that contribute to distinguishing the document.
+- Aim for a maximum of 2000 tokens, encouraging the inclusion of as much relevant information as possible until approaching this limit to fully utilize the available space.
 
 By following these guidelines, generate a summary that enhances the document's retrievability and relevance in response to user queries in a vector store environment. 
