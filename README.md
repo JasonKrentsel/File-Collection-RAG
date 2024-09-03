@@ -15,7 +15,7 @@ This project is a basic proof of concept for a Retrieval-Augmented Generation (R
 
 ### Prerequisites
 
--   Python 3.x
+-   Python 3.12.4
 -   Google API key (for accessing Google Gemini)
 
 ### Setup
